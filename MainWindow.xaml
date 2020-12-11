@@ -1,0 +1,22 @@
+﻿<mah:MetroWindow x:Name="Finanzas" x:Class="Finanzas.MainWindow"
+        xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Finanzas"
+        mc:Ignorable="d"
+        Title="Finanzas" Height="450" Width="800" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen">
+    <Grid Margin="10,0,0,0">
+        <Grid.ColumnDefinitions>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lblrecordar" Content="En caso de no recordar su contraseña contáctese con el administrador" HorizontalAlignment="Left" Margin="184,233,0,0" VerticalAlignment="Top"/>
+        <Label Content="Finanzas" HorizontalAlignment="Left" Margin="338,36,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label x:Name="lblnomb" Content="Nombre de usuario" HorizontalAlignment="Left" Margin="184,106,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblcontra" Content="Contraseña" HorizontalAlignment="Left" Margin="184,154,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtnomb" HorizontalAlignment="Left" Height="23" Margin="328,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="txtcontra" HorizontalAlignment="Left" Margin="328,154,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btningresar" Content="Ingresar" HorizontalAlignment="Left" Margin="351,318,0,0" VerticalAlignment="Top" Width="75" Click="btningresar_Click_1"/>
+
+    </Grid>
+</mah:MetroWindow>
